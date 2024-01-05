@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;  
+    int t1=0,t2=1;
+   int t3=0;
+//cout<<t1<<"\n ";
+//cout<<t2<<"\n";
+
+       
+        for(int i=1;i<=n;i++){
+for(int j=1;j<=i;j++){
+    cout<<t1<<" ";
+    t3=t1+t2;
+    t1=t2;
+    t2=t3;
+}
+        cout<<"\n";
+        }
+
+        
+        
+    return 0;
+}
+
+
+
